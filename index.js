@@ -12048,22 +12048,86 @@ console.log("Engine loaded successfully.");
 var game = {
   data: { score: 0, steps: 0, start: !1, newHiScore: !1, muted: !1 },
   resources: [
-    { name: "bg", type: "image", src: "data/img/bg.png" },
-    { name: "clumsy", type: "image", src: "data/img/clumsy.png" },
-    { name: "pipe", type: "image", src: "data/img/pipe.png" },
-    { name: "logo", type: "image", src: "data/img/logo.png" },
-    { name: "ground", type: "image", src: "data/img/ground.png" },
-    { name: "gameover", type: "image", src: "data/img/gameover.png" },
-    { name: "gameoverbg", type: "image", src: "data/img/gameoverbg.png" },
-    { name: "hit", type: "image", src: "data/img/hit.png" },
-    { name: "getready", type: "image", src: "data/img/getready.png" },
-    { name: "new", type: "image", src: "data/img/new.png" },
-    { name: "share", type: "image", src: "data/img/share.png" },
-    { name: "tweet", type: "image", src: "data/img/tweet.png" },
-    { name: "theme", type: "audio", src: "data/bgm/" },
-    { name: "hit", type: "audio", src: "data/sfx/" },
-    { name: "lose", type: "audio", src: "data/sfx/" },
-    { name: "wing", type: "audio", src: "data/sfx/" },
+    {
+      name: "bg",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/bg.png",
+    },
+    {
+      name: "clumsy",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/clumsy.png",
+    },
+    {
+      name: "pipe",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/pipe.png",
+    },
+    {
+      name: "logo",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/logo.png",
+    },
+    {
+      name: "ground",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/ground.png",
+    },
+    {
+      name: "gameover",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/gameover.png",
+    },
+    {
+      name: "gameoverbg",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/gameoverbg.png",
+    },
+    {
+      name: "hit",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/hit.png",
+    },
+    {
+      name: "getready",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/getready.png",
+    },
+    {
+      name: "new",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/new.png",
+    },
+    {
+      name: "share",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/share.png",
+    },
+    {
+      name: "tweet",
+      type: "image",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/img/tweet.png",
+    },
+    {
+      name: "theme",
+      type: "audio",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/bgm/",
+    },
+    {
+      name: "hit",
+      type: "audio",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/sfx/",
+    },
+    {
+      name: "lose",
+      type: "audio",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/sfx/",
+    },
+    {
+      name: "wing",
+      type: "audio",
+      src: "https://poonam-agr.github.io/clumsy-bird/data/sfx/",
+    },
   ],
   onload: function () {
     return me.video.init(900, 600, {
